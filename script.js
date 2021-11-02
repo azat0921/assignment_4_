@@ -220,7 +220,7 @@ const calculate = () => {
         // DOM manipulation HTML
 
         
-        document.getElementById("demo").innerHTML = `Your price for ${human.bride_name} ${number} $ ${human.bride_love_letter}`;
+        document.getElementById("demo").innerHTML = `Your price for ${human.bride_name} ${number} $ . ${human.bride_love_letter}`;
         }       
         // return true;
         
