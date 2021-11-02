@@ -190,7 +190,7 @@ const calculate = () => {
     else{
         // price = document.getElementById('bid').value
         if(arr[0] == 1 && arr[1] == 1 && arr[2] == 0 && arr[3] == 0 && arr[4] == 1){
-            document.getElementById("demo").innerHTML = `Your price for ${name} ${price} $`;
+            document.getElementById("demo").innerHTML = `Your price for ${name} ${price} $ ${human.bride_love_letter}`;
         }
         else{
     
